@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { Survey } from 'survey-react-ui'
-import { Model, SurveyModel, ItemValue } from 'survey-core'
+import { Model, SurveyModel, ItemValue } from 'survey-core' // Импорт ItemValue
 import 'survey-core/defaultV2.min.css'
 
 const SurveyForm: React.FC = () => {
@@ -37,7 +37,7 @@ const SurveyForm: React.FC = () => {
 			}
 		})
 
-		console.log('Survey Results:', results)
+		alert(JSON.stringify(results, null, 2))
 	}, [])
 
 	useEffect(() => {
