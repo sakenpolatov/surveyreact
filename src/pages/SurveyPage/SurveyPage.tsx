@@ -1,3 +1,3 @@
 export const SurveyPage = () => {
-	return <div>sdvsvdvsdvdsvsd</div>
+	return <div>SurveyPage</div>
 }
