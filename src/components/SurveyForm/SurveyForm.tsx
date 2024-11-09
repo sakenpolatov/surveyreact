@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { Survey } from 'survey-react-ui'
-import { Model, SurveyModel, ItemValue } from 'survey-core' // Импорт ItemValue
+import { Model, SurveyModel, ItemValue } from 'survey-core'
 import 'survey-core/defaultV2.min.css'
 
 const SurveyForm: React.FC = () => {
