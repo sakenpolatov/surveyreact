@@ -1,0 +1,84 @@
+{
+	"pages": [
+		{
+			"elements": [
+				{
+					"name": "question1",
+					"title": "Что такое JSX?",
+					"type": "radiogroup",
+					"choices": [
+						{ "value": "a", "text": "Расширение JavaScript для XML" },
+						{ "value": "b", "text": "Библиотека для работы с DOM" },
+						{ "value": "c", "text": "Метод CSS для стилизации" },
+						{ "value": "d", "text": "Фреймворк для серверного рендеринга" }
+					],
+					"correctAnswer": "a"
+				}
+			]
+		},
+		{
+			"elements": [
+				{
+					"name": "question2",
+					"title": "Какой метод используется для изменения состояния компонента в React?",
+					"type": "radiogroup",
+					"choices": [
+						{ "value": "a", "text": "setState" },
+						{ "value": "b", "text": "changeState" },
+						{ "value": "c", "text": "updateState" },
+						{ "value": "d", "text": "modifyState" }
+					],
+					"correctAnswer": "a"
+				}
+			]
+		},
+		{
+			"elements": [
+				{
+					"name": "question3",
+					"title": "Что такое Virtual DOM?",
+					"type": "radiogroup",
+					"choices": [
+						{ "value": "a", "text": "Функция рендеринга HTML" },
+						{ "value": "b", "text": "Система маршрутизации в React" },
+						{ "value": "c", "text": "Копия DOM, хранящаяся в памяти" },
+						{ "value": "d", "text": "Метод для управления состоянием" }
+					],
+					"correctAnswer": "c"
+				}
+			]
+		},
+		{
+			"elements": [
+				{
+					"name": "question4",
+					"title": "Какой хук позволяет выполнять побочные эффекты в функциональных компонентах?",
+					"type": "radiogroup",
+					"choices": [
+						{ "value": "a", "text": "useState" },
+						{ "value": "b", "text": "useEffect" },
+						{ "value": "c", "text": "useReducer" },
+						{ "value": "d", "text": "useContext" }
+					],
+					"correctAnswer": "b"
+				}
+			]
+		},
+		{
+			"elements": [
+				{
+					"name": "question5",
+					"title": "Какой метод используется для передачи данных от родительского компонента к дочернему?",
+					"type": "radiogroup",
+					"choices": [
+						{ "value": "a", "text": "props" },
+						{ "value": "b", "text": "state" },
+						{ "value": "c", "text": "context" },
+						{ "value": "d", "text": "hooks" }
+					],
+					"correctAnswer": "a"
+				}
+			]
+		}
+	]
+}
