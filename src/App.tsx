@@ -1,7 +1,13 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect } from 'react'
 import './App.css'
+import { useTelegram } from './hooks/useTelegram'
 
-function App() {
-	return <div className='App'>survey</div>
+export const App = () => {
+	const { tg } = useTelegram()
+	useEffect(() => {
+		tg.ready()
+	}, [])
+
+	return <div className='App'>домашняя страница</div>
 }
-
-export default App
