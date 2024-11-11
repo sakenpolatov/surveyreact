@@ -1,0 +1,89 @@
+.container {
+	width: 100vw;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f8f9fa;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	color: #000;
+}
+
+.header {
+	text-align: center;
+	color: #2c3e50;
+	font-size: 1.8em;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.correctCount {
+	text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	color: #27ae60;
+
+	&.incorrect {
+		color: #e74c3c;
+	}
+}
+
+.resultsList {
+	list-style-type: none;
+	padding: 0;
+	width: 40vw;
+}
+
+.resultItem {
+	margin-bottom: 20px;
+	padding: 15px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+	font-weight: 900;
+	color: #000000;
+}
+
+.answer {
+	margin-top: 5px;
+}
+
+.userAnswer {
+	color: #e74c3c;
+}
+
+.correctAnswer {
+	color: #27ae60;
+}
+
+.retryButton {
+	margin: 15px;
+	padding: 16px 64px;
+	font-size: 1em;
+	font-weight: 600;
+	color: #19b394;
+	background-color: #ffffff;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+	&:hover {
+		background-color: #f8f8f8;
+		color: #19b394;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+	}
+
+	/* Нажатие */
+	&:active {
+		background-color: #f8f8f8;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	}
+}
